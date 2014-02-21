@@ -1,0 +1,2 @@
+#!/bin/sh
+exec '/usr/bin/php' -f '/home/gui/phabricator/bin/commit-hook' -- 'G' "$@"
